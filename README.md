@@ -1,14 +1,15 @@
 # devops-netology
-Следующие файлы будут проигнорированы в будущем благодаря добавленному в файл terraform/.gitignore  https://github.com/github/gitignore/blob/master/Terraform.gitignore
-*# Все вложенные Локальные директории .terraform   **/.terraform/*
+Следующие файлы будут проигнорированы в будущем благодаря добавленному в файл terraform/.gitignore содержимому из https://github.com/github/gitignore/blob/master/Terraform.gitignore
 
-*# .tfstate files *.tfstate *.tfstate.*
+* Все вложенные Локальные директории .terraform **/.terraform/*
 
-*# Файлы журнала сбоев crash.log crash.*.log
+* .tfstate files *.tfstate *.tfstate.*
 
-*# Исключены все файлы .tfvars, которые могут содержать конфиденциальные данные, такие как пароль, закрытые ключи и другие секреты. *.tfvars *.tfvars.json
+* Файлы журнала сбоев crash.log crash.*.log
 
-*# Игнорировать файлы переопределения, поскольку они обычно используются для локального переопределения ресурсов   override.tf override.tf.json *_override.tf *_override.tf.json
+* Исключены все файлы .tfvars, которые могут содержать конфиденциальные данные, такие как пароль, закрытые ключи и другие секреты. *.tfvars *.tfvars.json
 
-*# Игнорировать файлы конфигурации командной строки   .terraformrc terraform.rc
+* Игнорировать файлы переопределения, поскольку они обычно используются для локального переопределения ресурсов   override.tf override.tf.json *_override.tf *_override.tf.json
+
+* Игнорировать файлы конфигурации командной строки   .terraformrc terraform.rc
 
